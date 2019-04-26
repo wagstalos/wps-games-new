@@ -373,6 +373,7 @@ a.social{
 }
 .bt-verde {
   background-color: #46C14F;
+  margin-right: 10px;
 }
 #contato button a{
   color: white;
@@ -481,6 +482,8 @@ a.social{
   justify-content: center;
   margin-top: 20px;
 }
+
+/*======grid port=========*/
 .grid-item { 
   width: 25%;
   padding: 15px;

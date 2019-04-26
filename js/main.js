@@ -1,4 +1,5 @@
 $(document).ready(function(){
+ 
   var $grid = $('.grid').isotope({
     // options
     itemSelector: '.grid-item',
@@ -10,15 +11,11 @@ $(document).ready(function(){
     console.log('value', value)
     $grid.isotope({
       filter: value
-  
     });
 
   })
 
-
-
-
-         // 1. Convert node list of all images with 
+ // 1. Convert node list of all images with 
 // data-src attribute to an array
 const imgs = [ ...document.querySelectorAll('img[data-src]') ];
 
