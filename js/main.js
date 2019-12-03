@@ -121,7 +121,7 @@ if ('IntersectionObserver' in window) {
        $('a[href="#topo"]').fadeOut();
     }
   });
-    // btn Subit topo
+    // btn Subir topo
     $('a[href="#topo"]').click(function(){
             $('html, body').animate({scrollTop : 0},900);
             return false;
