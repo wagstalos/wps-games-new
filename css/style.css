@@ -11,7 +11,9 @@ button:focus {
   outline: 1px dotted;
   outline: none;
 }
-
+b{
+  color: #7c89e4;
+}
 .active{
   background-color: #00ffa5!important;
 }
@@ -239,7 +241,8 @@ button:active{
   background-color: #00ffa5;
  }
 .btn-portfolio{
-  color: #112b43;
+  color: #7c89e4;
+  font-weight: 400;
   border: 1px solid #00ff8c;
   background-image: -webkit-linear-gradient(30deg, #fff 50%, transparent 50%);
   background-image: linear-gradient(30deg, #fff 50%, transparent 50%);
@@ -256,7 +259,7 @@ button:active{
 .btn-portfolio:hover{
   background-position: 100%;
   transition: 1s;
-  color: #112b43;
+  color: #fff;
 }
 .btn-portfolio:active{
   /* outline: none; */
@@ -374,7 +377,7 @@ a.social{
 }
 .border-contato{
     padding: 13px;
-    background-color: #f3efef;
+    background-color: #f7f7f7;
     border-radius: 4px;
     margin: 10px 10px 10px 10px;
     font-size: 18px;
@@ -464,8 +467,8 @@ a.social{
     z-index: 998;
 }
 .icon-game{
-    /* padding-right: 10px; */
-    color:  #d2d2d2;;
+    padding-right: 5px;
+    color: #7c89e4;;
 }
 #portfolio-sites{
   display: none;
