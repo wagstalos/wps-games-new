@@ -150,6 +150,7 @@ a {
     right: 0;
     top: 0;
     bottom: 0;
+    background-position-x: -8rem
 }
 .primary-btn {
     line-height: 40px;
