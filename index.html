@@ -49,30 +49,84 @@
 <body>
 	<!-- Topo -->
 	<div class="sticky-header">
-		<div class="container-fluid default-header" id="header">
+		<div class="default-header" id="header">
 			<header class="container">
 				<nav class="navbar navbar-expand-md navbar-dark">
 					<a href="#" class="navbar-brand ">
 						<img src="img/logo.png" alt="" class="d-inline-block align-top logo">
 					</a>
-					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu"
+					<button class="navbar-toggler p-0" type="button" data-toggle="collapse" data-target="#menu"
 						aria-controls="menu" aria-expanded="false" aria-label="Menu Colapso">
-						<span class="navbar-toggler-icon text-light"> </span>
+						<!-- <span class="navbar-toggler-icon text-light"> </span> -->
+						<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-align-left"
+							width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="#00ff8c" fill="none"
+							stroke-linecap="round" stroke-linejoin="round">
+							<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+							<path d="M4 6l16 0"></path>
+							<path d="M4 12l10 0"></path>
+							<path d="M4 18l14 0"></path>
+						</svg>
 					</button>
 					<div id="menu" class="collapse navbar-collapse">
-						<ul class="navbar-nav ml-auto text-light ">
-							<li class="nav-item ml-20">
-								<a href="#servicos" class="nav-link text-light text-uppercase scroll-page ">O que
+						<ul class="navbar-nav ml-auto text-light align-items-end">
+							<li class="nav-item ml-20 d-flex align-items-center">
+								<a href="#servicos" class="nav-link text-light text-uppercase scroll-page mr-2">O que
 									fazemos</a>
+								<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-world-code"
+									width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="#00ff8c"
+									fill="none" stroke-linecap="round" stroke-linejoin="round">
+									<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+									<path d="M20.942 13.02a9 9 0 1 0 -9.47 7.964"></path>
+									<path d="M3.6 9h16.8"></path>
+									<path d="M3.6 15h9.9"></path>
+									<path d="M11.5 3a17 17 0 0 0 0 18"></path>
+									<path d="M12.5 3c2 3.206 2.837 6.913 2.508 10.537"></path>
+									<path d="M20 21l2 -2l-2 -2"></path>
+									<path d="M17 17l-2 2l2 2"></path>
+								</svg>
 							</li>
-							<li class="nav-item ml-20">
-								<a href="#jogos" class="nav-link text-light text-uppercase scroll-page">Projetos</a>
+							<li class="nav-item ml-20 d-flex align-items-center">
+								<a href="#jogos"
+									class="nav-link text-light text-uppercase scroll-page mr-2">Projetos</a>
+								<svg xmlns="http://www.w3.org/2000/svg"
+									class="icon icon-tabler icon-tabler-device-gamepad" width="24" height="24"
+									viewBox="0 0 24 24" stroke-width="2" stroke="#00ff8c" fill="none"
+									stroke-linecap="round" stroke-linejoin="round">
+									<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+									<path
+										d="M2 6m0 2a2 2 0 0 1 2 -2h16a2 2 0 0 1 2 2v8a2 2 0 0 1 -2 2h-16a2 2 0 0 1 -2 -2z">
+									</path>
+									<path d="M6 12h4m-2 -2v4"></path>
+									<path d="M15 11l0 .01"></path>
+									<path d="M18 13l0 .01"></path>
+								</svg>
 							</li>
-							<li class="nav-item ml-20">
-								<a href="#quem-somos" class="nav-link text-light text-uppercase scroll-page">Missão</a>
+							<li class="nav-item ml-20 d-flex align-items-center">
+								<a href="#quem-somos"
+									class="nav-link text-light text-uppercase scroll-page mr-2">Missão</a>
+								<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rocket"
+									width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="#00ff8c"
+									fill="none" stroke-linecap="round" stroke-linejoin="round">
+									<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+									<path
+										d="M4 13a8 8 0 0 1 7 7a6 6 0 0 0 3 -5a9 9 0 0 0 6 -8a3 3 0 0 0 -3 -3a9 9 0 0 0 -8 6a6 6 0 0 0 -5 3">
+									</path>
+									<path d="M7 14a6 6 0 0 0 -3 6a6 6 0 0 0 6 -3"></path>
+									<path d="M15 9m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0"></path>
+								</svg>
 							</li>
-							<li class="nav-item ml-20">
-								<a href="#contato" class="nav-link text-light text-uppercase scroll-page">Contato</a>
+							<li class="nav-item ml-20 d-flex align-items-center">
+								<a href="#contato"
+									class="nav-link text-light text-uppercase scroll-page mr-2">Contato</a>
+								<svg xmlns="http://www.w3.org/2000/svg"
+									class="icon icon-tabler icon-tabler-device-mobile-message mb-1" width="24"
+									height="24" viewBox="0 0 24 24" stroke-width="2" stroke="#00ff8c" fill="none"
+									stroke-linecap="round" stroke-linejoin="round">
+									<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+									<path d="M11 3h10v8h-3l-4 2v-2h-3z"></path>
+									<path d="M15 16v4a1 1 0 0 1 -1 1h-8a1 1 0 0 1 -1 -1v-14a1 1 0 0 1 1 -1h2"></path>
+									<path d="M10 18v.01"></path>
+								</svg>
 							</li>
 							<li class="nav-item">
 								<a href="http://m.me/wagstalos" class="nav-link text-light icones">
