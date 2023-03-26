@@ -572,12 +572,13 @@ a.social {
   height: 150px;
 }
 
-.fa-facebook-messenger {
+.nav-link .fa-facebook-messenger {
   margin-left: 30px;
 }
 
 .fa-facebook-messenger, .fa-whatsapp {
   width: 10px;
+  margin-right: 5px;
   color: rgb(255, 255, 255);
   transition: all .5s ease;
 }
@@ -617,7 +618,7 @@ a.social {
   }
 
   .fa-facebook-messenger, .fa-whatsapp {
-    width: auto;
+    width: 24px;
     color: rgb(0, 255, 140);
   }
 
