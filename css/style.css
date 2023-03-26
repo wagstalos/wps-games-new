@@ -572,6 +572,20 @@ a.social {
   height: 150px;
 }
 
+.fa-facebook-messenger {
+  margin-left: 30px;
+}
+
+.fa-facebook-messenger, .fa-whatsapp {
+  width: 10px;
+  color: rgb(255, 255, 255);
+  transition: all .5s ease;
+}
+
+.fa-facebook-messenger:hover, .fa-whatsapp:hover {
+  color: rgb(0, 255, 140);
+}
+
 /*======media=========*/
 @media only screen and (max-width: 750px) {
   .icones-animados {
@@ -591,8 +605,6 @@ a.social {
     background-color: transparent;
     border-radius: 0;
     margin: 10px 10px 10px 10px;
-    /* font-size: 18px; */
-    /* border: 1px solid #4f5e84; */
   }
 
   .mouse {
@@ -602,6 +614,11 @@ a.social {
   .banner-area {
     display: none;
     background: url(../img/banner-foquete.png) no-repeat center center/cover;
+  }
+
+  .fa-facebook-messenger, .fa-whatsapp {
+    width: auto;
+    color: rgb(0, 255, 140);
   }
 
 }
@@ -639,9 +656,4 @@ a.social {
   .grid-item {
     width: 100%;
   }
-}
-
-.fa-facebook-messenger, .fa-whatsapp {
-  width: 24px;
-  color: rgb(0, 255, 140);
 }
