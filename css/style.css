@@ -617,9 +617,18 @@ a.social {
     background: url(../img/banner-foquete.png) no-repeat center center/cover;
   }
 
-  .fa-facebook-messenger, .fa-whatsapp {
-    width: 24px;
-    color: rgb(0, 255, 140);
+  .nav-link .fa-facebook-messenger, .fa-whatsapp {
+    width: 16px;
+  }
+
+  .nav-link .fa-facebook-messenger {
+
+    margin-left: 0;
+  }
+
+  .bt-redes-socias {
+    width: 100%;
+    margin-right: 0;
   }
 
 }
